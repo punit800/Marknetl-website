@@ -40,7 +40,6 @@ body{
     display: inline-block;
 }
 
-
 .icon-main{
     text-decoration: none;
     color: #000000;
@@ -81,7 +80,6 @@ body{
 .btn-group>.dropdown-menu .dro-main p:hover{
     opacity: 0.9;
 }
-
 
 /* Navbar logo stars */
 
@@ -375,13 +373,6 @@ body{
     margin-top: 50px;
 }
 
- /* .two-banner-img{ 
-    width: 100%;
-    height: 100%;
-    position: relative;
-    z-index: -1;
-}  */
-
 .section-tow{
     display: flex;
     justify-content: left;
@@ -621,7 +612,6 @@ body{
 .section-fore{
     margin: 14px 0;
 }
-
 
 /* section fore close */
 
