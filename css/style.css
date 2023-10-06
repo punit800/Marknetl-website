@@ -362,16 +362,35 @@ body{
 .section-two-main{
     margin: 20px 0;
 }
+
+.two-banner{
+    width: 100%;
+    height: 80%;
+    padding: 0px 30px  90px  0px;
+    background-image: url("../img/border.webp");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center left;
+    background-clip: padding-box;
+    margin-top: 50px;
+}
+
+ /* .two-banner-img{ 
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: -1;
+}  */
+
 .section-tow{
     display: flex;
     justify-content: left;
-}
-
-.tow-bo{
+    padding-bottom: 50px;
     overflow: hidden;
 }
+
 .reports-contact{
-    padding: 0px  15px 0 15px;
+    padding: 10px  50px 10px 60px;
     overflow: hidden;
 }
 
@@ -380,11 +399,16 @@ body{
 }
 
 .tow-main{
+    width: 100%;
+    height: 82%;
     box-shadow: 0 0 8px #000000;
+    margin-right: 30px;
 }
 
 .tow-main img{
     object-fit: cover;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
 }
 
 .tow-h{
@@ -412,7 +436,10 @@ body{
 
 .main-btn{
     text-align: center;
+   padding-top: -60px;
 }
+
+/* .section-tow */
 
 .main-btn .my-tb{
     padding: 3px 40px 3px 40px;
@@ -426,7 +453,23 @@ body{
 .main-btn .my-tb:hover{
     background-color: #156aab;
 }
+@media only screen and (max-width:992px){
+    .two-banner{
+        background: none;
+        padding: 0;
+    }
+    .tow-main{
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+    }
 
+    .reports-contact{
+        padding: 0px  20px 0px 20px;
+        overflow: hidden;
+    }
+
+}
 @media only screen and (max-width:768px) {
     .section-two-main .one-heading h1{
         font-size: 1.2rem;
@@ -434,8 +477,41 @@ body{
     .reports-contact:hover{
         transform: scale(1);
     }
-}
 
+    .section-two-main{
+        overflow-x: hidden;
+    }
+    .tow-main{
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+    }
+
+    .reports-contact{
+       padding: 0 30px 0 30px;
+        overflow: hidden;
+    }
+    .two-banner{
+        background: none;
+        padding: 0;
+    }
+    
+     .section-tow{
+        padding: 0px 20px 0px 20px;
+        overflow-x: hidden;
+        margin: 20px;
+    } 
+
+    .two-banner{
+        background: none;
+    }
+
+    @media only screen and (max-width:350px){
+    .section-two-main{
+        overflow-x: hidden;
+    }
+} 
+}
 /* section two close */
 
 /*   section three starts */
@@ -443,6 +519,8 @@ body{
 .section-three{
     margin: 30px 0 20px 0; 
 }
+
+
 .section-3-text{
     padding: 24px;
     background-color: #f3f3f3;
