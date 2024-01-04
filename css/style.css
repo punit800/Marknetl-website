@@ -133,7 +133,7 @@ body{
 
 .navbar>.container-fluid{
     justify-content: center;
-} */
+} 
 .navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl {
     justify-content: center;
 }
@@ -264,7 +264,6 @@ body{
 }
 
 /* Banner close */
-
 /* section one start */
 
 .section-head{
@@ -354,7 +353,6 @@ body{
 }
 
 /* section one close*/
-
 /* section two start */
 
 .section-two-main{
@@ -504,13 +502,11 @@ body{
 } 
 }
 /* section two close */
-
 /*   section three starts */
 
 .section-three{
     margin: 30px 0 20px 0; 
 }
-
 
 .section-3-text{
     padding: 24px;
@@ -579,13 +575,10 @@ body{
 }
 
 /*   section three close */
-
 /* section fore stars */
 .section-fore{
     overflow-x: hidden;
 }
-
-
 .card{
     box-shadow: 0  0 10px #000000;
     margin: 20px 0 30px 0;
@@ -614,7 +607,6 @@ body{
 }
 
 /* section fore close */
-
 /* section five starts */
 
 .section-five{
@@ -636,7 +628,7 @@ body{
     /* padding-bottom: 15px; */
 }
 
-.counters{
+.count{
     font-size: 2rem;
     font-weight: 700;
     color: #000000;
@@ -650,7 +642,6 @@ body{
 }
 
 /* section five close */
-
 /* section  seven  starts */
 .section-seven{
     margin: 25px 0;
