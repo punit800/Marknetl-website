@@ -1,14 +1,14 @@
 let count = document.querySelectorAll(".count")
 let arr = Array.from(count)
 
-arr.map(function(foorText){
+arr.map(function(item){
     let startnumber = 0
 
     function counterup(){
         startnumber++
-        foorText.innerHTML = startnumber
+        item.innerHTML = startnumber
 
-        if(startnumber == foorText.dataset.number){
+        if(startnumber == item.dataset.number){
             clearInterval(stop)
         }
     }
